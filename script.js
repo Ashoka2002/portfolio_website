@@ -111,8 +111,12 @@ renderSkills();
 const root = document.documentElement;
 const appearence = document.getElementById("appearance");
 
+appearance.checked = window.matchMedia("(prefers-color-scheme:dark)").matches;
+
+toggleDarkMode();
+
 function toggleDarkMode() {
-  if (this.checked) {
+  if (!appearance.checked) {
     root.style.setProperty("--bg-color", "#fafafa");
     root.style.setProperty("--second-bg-color", "#d2d3db");
     root.style.setProperty("--text-color", "#081b29");
@@ -122,9 +126,6 @@ function toggleDarkMode() {
     root.style.setProperty("--text-color", "#ededed");
   }
 }
-
-// appearence.checked = true;
-// toggleDarkMode();
 
 appearence.addEventListener("change", toggleDarkMode);
 ///////Vanila tilt effect
