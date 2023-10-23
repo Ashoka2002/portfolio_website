@@ -38,7 +38,6 @@ window.onscroll = () => {
   navbar.classList.remove("active");
 
   //footer animation
-  console.log(this);
   document
     .querySelector("footer")
     .classList.toggle(
