@@ -92,7 +92,7 @@ renderProjects();
 //////Skills
 
 function renderSkills() {
-  //Remeber there is a array that content skills in config.js
+  //There is a array that content skills in config.js
   const skillBox = document.querySelector(".skills-content");
   skills.forEach((skll) => {
     const html = `
@@ -111,7 +111,7 @@ renderSkills();
 const root = document.documentElement;
 const appearence = document.getElementById("appearance");
 
-appearence.addEventListener("change", function () {
+function toggleDarkMode() {
   if (this.checked) {
     root.style.setProperty("--bg-color", "#fafafa");
     root.style.setProperty("--second-bg-color", "#d2d3db");
@@ -121,7 +121,12 @@ appearence.addEventListener("change", function () {
     root.style.setProperty("--second-bg-color", "#112e42");
     root.style.setProperty("--text-color", "#ededed");
   }
-});
+}
+
+// appearence.checked = true;
+// toggleDarkMode();
+
+appearence.addEventListener("change", toggleDarkMode);
 ///////Vanila tilt effect
 
 VanillaTilt.init(document.querySelectorAll(".card"), {
