@@ -134,5 +134,5 @@ VanillaTilt.init(document.querySelectorAll(".card"), {
   max: 5,
   speed: 200,
   glare: true,
-  "max-glare": 0.2,
+  "max-glare": 0.3,
 });
