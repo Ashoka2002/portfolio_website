@@ -1,11 +1,11 @@
 const projects = [
   {
     projectNo: 1,
-    projectTitle: "Smart-Brain-App",
-    description: `This is a react project that uses the Clarify API to detect faces in images. I created the back-end using Node.js for sign-in, registration, and image count, and I also use the API in the back-end for face detection logic. For the database, I use Postgres for storing user data and connect it to the server using the Knex library. and some packages that I use are Bcrypt, Tackyons, Express, etc.`,
-    projectLink: "https://smartbrain-n893.onrender.com",
-    projectCodeLink: "https://github.com/Ashoka2002/smart-brain",
-    projectImgLink: "./img/smart-brain.png",
+    projectTitle: "usePopcorn",
+    description: `A React-based web app that lets you find, mark as watched, and rate movies, using react's custom hooks for reusability. for more detail checkout the links 👇`,
+    projectLink: "https://ashoka2002.github.io/usePopcorn/",
+    projectCodeLink: "https://github.com/Ashoka2002/usePopcorn",
+    projectImgLink: "./img/usePopcorn.png",
   },
   {
     projectNo: 2,
@@ -64,6 +64,14 @@ const projects = [
     projectLink: "https://ashoka2002.github.io/Guess_my_number/",
     projectCodeLink: "https://github.com/Ashoka2002/Guess_my_number",
     projectImgLink: "./img/GMN.png",
+  },
+  {
+    projectNo: 7,
+    projectTitle: "Smart-Brain-App",
+    description: `This is a react project that uses the Clarify API to detect faces in images. I created the back-end using Node.js for sign-in, registration, and image count, and I also use the API in the back-end for face detection logic. For the database, I use Postgres for storing user data and connect it to the server using the Knex library. and some packages that I use are Bcrypt, Tackyons, Express, etc.`,
+    projectLink: "https://smartbrain-n893.onrender.com",
+    projectCodeLink: "https://github.com/Ashoka2002/smart-brain",
+    projectImgLink: "./img/smart-brain.png",
   },
 ];
 
