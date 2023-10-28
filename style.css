@@ -572,7 +572,7 @@ span {
 .container .card img {
   width: 100%;
   height: auto;
-  filter: grayscale(100%);
+  filter: grayscale(70%);
   object-fit: cover;
   transition: 1s ease;
 }
@@ -984,6 +984,10 @@ input:checked ~ .moon {
 
   #menu-icon {
     display: block;
+  }
+
+  .container .card img {
+    filter: none;
   }
 
   .navbar {
