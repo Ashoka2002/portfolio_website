@@ -450,6 +450,29 @@ span {
   padding-top: 0.5rem;
 }
 
+.education-content .content ul li {
+  font-size: 1.6rem;
+  padding-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#certificate {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.certificate-list span {
+  color: #ededed;
+  font-size: 2rem;
+}
+.certificate-list a {
+  width: 95px;
+  color: #2196f3;
+  align-items: center;
+}
+
 /* Project section start hear */
 
 .section--hidden {
