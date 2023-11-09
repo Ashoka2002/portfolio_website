@@ -8,7 +8,7 @@ const projects = [
     projectImgLink: "./img/oasis.png",
   },
   {
-    projectNo: 1,
+    projectNo: 2,
     projectTitle: "Worldwise",
     description: `WorldWise, a travel tracking app, utilizes React.js, React Router, and various components like React Leaflet and React Icons. With a responsive design, it showcases a world map with city markers,Users can add, remove, and edit cities, view geolocation. The app uses local storage to retain city lists and features a tab component for easy city navigation.`,
     projectLink: "https://worldwise-ashok.netlify.app/app/cities",
@@ -16,7 +16,7 @@ const projects = [
     projectImgLink: "./img/worldwise.png",
   },
   {
-    projectNo: 2,
+    projectNo: 3,
     projectTitle: "usePopcorn",
     description: `A React-based web app that lets you find, mark as watched, and rate movies, using react's custom hooks for reusability. for more detail checkout the links 👇`,
     projectLink: "https://ashoka2002.github.io/usePopcorn/",
@@ -24,7 +24,7 @@ const projects = [
     projectImgLink: "./img/usePopcorn.png",
   },
   {
-    projectNo: 3,
+    projectNo: 4,
     projectTitle: "Youtube_Clone",
     description: `
    1. Developed using React and leverages React Router for seamless navigation.
@@ -38,7 +38,7 @@ const projects = [
     projectImgLink: "./img/youtube.png",
   },
   {
-    projectNo: 4,
+    projectNo: 5,
     projectTitle: "Forkify",
     description: `This website built with HTML, CSS, and JavaScript, it
     follows the Model-View-Control (MVC) architecture,
@@ -54,7 +54,7 @@ const projects = [
     projectImgLink: "./img/forkify.png",
   },
   {
-    projectNo: 5,
+    projectNo: 6,
     projectTitle: "Mapty",
     description: `
     I developed a Workout Tracker project while taking "The Complete JavaScript Course 2023 (Udemy)." course using Html,Css and Javascript. This app uses Leaflet for interactive workout maps and local storage to store user data. Please note that it's designed for desktops and lacks responsiveness on smaller devices.
@@ -64,7 +64,7 @@ const projects = [
     projectImgLink: "./img/mapty.png",
   },
   {
-    projectNo: 8,
+    projectNo: 7,
     projectTitle: "Smart-Brain-App",
     description: `This is a react project that uses the Clarify API to detect faces in images. I created the back-end using Node.js for sign-in, registration, and image count, and I also use the API in the back-end for face detection logic. For the database, I use Postgres for storing user data and connect it to the server using the Knex library. and some packages that I use are Bcrypt, Tackyons, Express, etc.`,
     projectLink: "https://smartbrain-n893.onrender.com",
