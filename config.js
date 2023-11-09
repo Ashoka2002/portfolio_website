@@ -1,6 +1,14 @@
 const projects = [
   {
     projectNo: 1,
+    projectTitle: "The wild oasis",
+    description: `Excited to introduce 'The Wild Oasis,' my latest big React project! 🏨 It's a user-friendly hotel management app, simplifying tasks like sales stats, cabin & user management, bookings, and lots of customization options. 🔒 Incorporates secure authentication, database storage, and a cool dark mode feature. And so much more.`,
+    projectLink: "https://the-wild-oasis-ashok.vercel.app",
+    projectCodeLink: "https://github.com/Ashoka2002/the-wild-oasis",
+    projectImgLink: "./img/oasis.png",
+  },
+  {
+    projectNo: 1,
     projectTitle: "Worldwise",
     description: `WorldWise, a travel tracking app, utilizes React.js, React Router, and various components like React Leaflet and React Icons. With a responsive design, it showcases a world map with city markers,Users can add, remove, and edit cities, view geolocation. The app uses local storage to retain city lists and features a tab component for easy city navigation.`,
     projectLink: "https://worldwise-ashok.netlify.app/app/cities",
@@ -54,24 +62,6 @@ const projects = [
     projectLink: "https://ashoka2002.github.io/mapty/",
     projectCodeLink: "https://github.com/Ashoka2002/mapty/tree/main",
     projectImgLink: "./img/mapty.png",
-  },
-  {
-    projectNo: 6,
-    projectTitle: "Linear_Color_Generator",
-    description: `
-    Simple web project that generate background color.
-    `,
-    projectLink: "https://ashoka2002.github.io/background-generator/",
-    projectCodeLink: "https://github.com/Ashoka2002/background-generator",
-    projectImgLink: "./img/bg-gen.png",
-  },
-  {
-    projectNo: 7,
-    projectTitle: "Guess My Number (Game)",
-    description: `Number guess game using simple Html,Css and Javascript(Non Responsive for small devices)`,
-    projectLink: "https://ashoka2002.github.io/Guess_my_number/",
-    projectCodeLink: "https://github.com/Ashoka2002/Guess_my_number",
-    projectImgLink: "./img/GMN.png",
   },
   {
     projectNo: 8,
